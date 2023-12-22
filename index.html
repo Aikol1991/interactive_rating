@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style-css/style.css">
+
+  <title>Интерактивный рейтинг</title>
+
+</head>
+<body>
+
+    <div class="card">
+      <div class="container">
+        <div class="start_section">
+          <div class="star">
+            <img src="/images/icon-star.svg" alt="icon-star">
+          </div>
+        
+          <div class="question">
+            <h3>Как вы оцените нас?</h3>
+          </div>
+          <p class="start_desc">Пожалуйста, сообщите нам, как мы справились с вашим запросом в службу поддержки. Мы ценим все отзывы, которые помогут нам улучшить наше предложение!</p>
+
+          <div class="ratings">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+        
+          <button class="submit-btn">Оценить</button>
+        </div>
+      
+          <div class="end_section hidden">
+            <img src="/images/illustration-thank-you.svg" alt="thanks">
+              <div class="select">
+                Вы выбрали <span id="rate"></span> из 5
+              </div>
+              <h2>Спасибо вам!</h2>
+                <p class="end_desc">Мы ценим, что вы нашли время, чтобы дать оценку. Если вам когда-нибудь понадобится дополнительная поддержка, не стесняйтесь обращаться к нам!</p>
+          </div>
+      </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
